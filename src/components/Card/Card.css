@@ -1,0 +1,16 @@
+.card {
+    width: 25rem;
+    margin-bottom: 3em;
+}
+
+.info-section-block {
+    text-align: center;
+}
+
+.card-img-top{
+    max-height: 200px;
+}
+.toogle-section{
+    display: flex;
+    justify-content: space-between;
+}

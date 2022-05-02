@@ -1,0 +1,25 @@
+body {
+  background-color: #EBEBEB;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-section-block {
+  text-align: center;
+}
+
+.App {
+  padding: 3em 1em;
+  
+  height: 100%;
+}
+
+.Card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
