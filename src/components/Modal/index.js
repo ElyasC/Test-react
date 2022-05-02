@@ -2,7 +2,7 @@ import { Modal, Button, } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import React, { useContext } from 'react';
 import { DestinationsContext } from '../../context/destination/context';
-
+import Switch from '../Switch';
 
 
 import './Modal.css'
@@ -39,8 +39,8 @@ function MyVerticallyCenteredModal(props) {
             <input type="text" className="form-control Child-form-second-block" id="Superficie" placeholder="Superficie" {...register("superficie", { required: true })} />
           </div>
           <div className="form-check form-switch">
-          
-            <label className="form-check-label" >Activer</label>
+            <Switch rounded={ true } className="switch-button"/>
+            <label className="form-check-label switch-button" >Activer</label>
           </div>
           <div className='Modal-form-button'>
             <Button variant='btn secondary' onClick={props.onHide}>CANCEL</Button>

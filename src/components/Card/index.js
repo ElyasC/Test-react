@@ -1,3 +1,4 @@
+import Switch from '../Switch';
 import './Card.css';
 
 function Card({ data }) {
@@ -9,7 +10,7 @@ function Card({ data }) {
         <div className='toogle-section'>
           <h5 className="card-title">{data.destination}</h5>
           <div className="form-check form-switch">
-            
+            <Switch rounded={ true }/>
           </div>
         </div>
         <p className="card-text">{data.adresse}</p>
