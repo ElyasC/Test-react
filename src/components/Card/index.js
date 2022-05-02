@@ -1,5 +1,5 @@
 import './Card.css';
-import SwitchExample from '../Switch';
+
 function Card({ data }) {
 
   return (
@@ -9,7 +9,7 @@ function Card({ data }) {
         <div className='toogle-section'>
           <h5 className="card-title">{data.destination}</h5>
           <div className="form-check form-switch">
-            <SwitchExample/>
+            
           </div>
         </div>
         <p className="card-text">{data.adresse}</p>
